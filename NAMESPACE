@@ -1,0 +1,9 @@
+export("miscIC")
+
+S3method(anova, miscIC)
+S3method(plot, miscIC)
+S3method(print, miscIC)
+
+importFrom("graphics", "lines", "par", "plot", "polygon")
+importFrom("stats", "optimize", "pchisq",
+                "pnorm", "qnorm")
